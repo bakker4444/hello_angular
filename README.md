@@ -1,58 +1,14 @@
-## Angular / "Hello Angular" Assignment
+# Coding Dojo Bootcamp Assignment
+## MEAN / Angular / Hello Angular
 
-----
+### Assignment details
+* Have Angular served by an Express project
 
-**submit files:**<br />
+Create a new Angular project served by your previously created Restful Task API assignment. The end result of this should be one Express project which is serving the 'dist' folder within its Angular directory. Upon reaching the server's root directory (e.g. `'http://localhost:8000'`) we should be presented with the Angular app's initial welcome page (the default page for a new Angular project).
 
-```
-    .
-    ├── README.md
-    ├── helloAngularApp/
-    │   ├── .angular-cli.json
-    │   ├── .editorconfig
-    │   ├── README.md
-    │   ├── e2e/
-    │   │   ├── app.e2e-spec.ts
-    │   │   ├── app.po.ts
-    │   │   └── tsconfig.e2e.json
-    │   ├── karma.conf.js
-    │   ├── package-lock.json
-    │   ├── package.json
-    │   ├── protractor.conf.js
-    │   ├── src/
-    │   │   ├── app/
-    │   │   │   ├── app.component.css
-    │   │   │   ├── app.component.html
-    │   │   │   ├── app.component.spec.ts
-    │   │   │   ├── app.component.ts
-    │   │   │   └── app.module.ts
-    │   │   ├── assets/
-    │   │   │   └── .gitkeep
-    │   │   ├── environments/
-    │   │   │   ├── environment.prod.ts
-    │   │   │   └── environment.ts
-    │   │   ├── favicon.ico
-    │   │   ├── index.html
-    │   │   ├── main.ts
-    │   │   ├── polyfills.ts
-    │   │   ├── styles.css
-    │   │   ├── test.ts
-    │   │   ├── tsconfig.app.json
-    │   │   ├── tsconfig.spec.json
-    │   │   └── typings.d.ts
-    │   ├── tsconfig.json
-    │   └── tslint.json
-    ├── package-lock.json
-    ├── package.json
-    ├── server/
-    │   ├── config/
-    │   │   └── routes.js
-    │   ├── controllers/
-    │   │   └── tasks.js
-    │   └── models/
-    │       └── task.js
-    └── server.js
+**Bonus challenge** : Change the initial welcome page message to say "Welcome to MEAN" without directly altering the HTML.
 
-```
-
-<br />
+- [x] Navigate inside your Restful Task API assignment
+- [x] Use ng new to build an Angular project within the Restful Task API assignment, on the same level as server.js
+- [x] Alter server.js so that it finds static files within the dist folder of your Angular project
+- [x] Build Angular and run your Node server
